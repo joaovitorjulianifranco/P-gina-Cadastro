@@ -140,7 +140,7 @@
     </div>
     <div class="pure-button">
       <!--<input type="submit" value="Cadastrar" id="submit">
-      <button type="submit" class="pure-button pure-button-primary">Cadastrar<a href="file:///D:/Programas/Xampp/htdocs/Joao/Concluido.html" class="registration"></a></button>-->
+      <button type="submit" class="pure-button pure-button-primary">Cadastrar<a href="" class="registration"></a></button>-->
       <input type="submit" value="#" class="submit">
       <a href="" class="Cadastro">Cadastro</a>
 
