@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><em>Cadastro</em></title>
+<style>
+  .container {
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  } 
+  #cadastro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  .card {
+    background-color: rgba(black, grey, red, Chocolate);
+    padding: 40px;
+    border-radius: 2px;
+    width: 280px;
+  }
+
+  .card-header {
+    padding-bottom: 50;
+    opacity: 0.8;
+    color: green;
+  }
+
+  .card-header::after {
+    content: "";
+    width: 70px;
+    height: 1px;
+    background-color: aliceblue;
+    display: block;
+    margin-top: -17px;
+    margin-left: -5px;
+  }
+
+  .card-content label {
+  color: #fff;  
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+.card-content-area {
+  display: flex;
+  flex-direction: column;
+  padding:10px 0;
+}
+
+.card-content-area input {
+  margin-top: 10px;
+  padding:0 5px;
+  background-color: transparent;
+  border:none;
+  border-bottom: 1px solid #e1e1e1;
+  outline: none;
+  color: #fff;
+}
+
+.card-footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-footer .submit {
+  width: 100%;
+  height: 40px;
+  background-color: green;
+  border:none;
+  color:#e1e1e1;
+  margin: 10px 0;
+}
+.card-footer a {
+  text-align: center;
+  font-size: 12px;
+  opacity: 0.8;
+  color: #fff;
+  text-decoration: none;
+}
+</style>
+</head>
+<body>
+    <div class="container" >
+        <a class="links" id="paracadastro"></a>
+            <!--Formulario de Cadastro-->
+
+    <div id="Cadastro"> 
+        <form method="post" action="">
+            <label>Cadastro</label>
+    <fieldset>
+        <div>
+            <label>Nome</label>
+            <!--<input type="text" name="nome" required="required" type="text" placeholder="Nome">
+            <input type="name" x-moz-errormessage="Digite o seu nome">-->
+            <input type="text" name="Nome" required="required" type="text" placeholder="Nome" x-moz-errormessage="Digite o seu nome">
+        </div>
+        <div>
+            <label>SobreNome</label>
+            <!--<input type="text" name="sobrenome" required="required" type="text" placeholder="SobreNome">--> 
+            <input type="text" name="SobreNome" required="required" type="text" placeholder="SobreNome" x-moz-errormessage="Digite o seu SobreNome"></input>
+        </div>
+    </fieldset>
+
+    <div class="form-group has-success has-feedback">
+        <label>E-mail</label>
+        <input type="email" name="email" required="required" type="email" placeholder="contato@htmlecsspro.com">
+        <input type="email" placeholder="Confirme o Email" name="email" required> 
+    </div>
+
+    <div class="pure-form">
+      <fieldset>
+        <label for="Senha-cadastro">Crie a Sua Senha</label>
+        <input id="Senha-cadastro" name="senha_cad" required="required" type="password" placeholder="exemplo 1234"/>
+        <input type="password" placeholder="Confirme Senha" id="confirm_password" required>
+        
+      </fieldset>
+    </div>
+    <div class="md-form md-outline input-with-post-icon datepicker">
+      <label for="date">Data de Nascimento</label>
+      <input placeholder="Select date" type="date" id="example" class="form-control">
+      
+    </div>
+    <div>
+      <h2 >Gênero</h2>
+      <form>
+        Masculino<input type="radio" name="gender">
+        Feminino<input type="radio" name="gender">
+      </form>
+    </div>
+    <div class="pure-button">
+      <!--<input type="submit" value="Cadastrar" id="submit">
+      <button type="submit" class="pure-button pure-button-primary">Cadastrar<a href="file:///D:/Programas/Xampp/htdocs/Joao/Concluido.html" class="registration"></a></button>-->
+      <input type="submit" value="#" class="submit">
+      <a href="" class="Cadastro">Cadastro</a>
+
+    </div>
+    </div>
+    <!--<form class="pure-form">
+          <fieldset>
+            <legend>Confirme a sua senha</legend>
+            <input type="password" placeholder="Senha" id="password" required>
+            <input id="Senha-cadastro" name="senha_cad" required="required" type="password" placeholder="ex. 1234"/>
+            <input type="password" placeholder="Confirme Senha" id="confirm_password" required >
+            <button type="submit" class="pure-button pure-button-primary">confirmar</button>
+          </fieldset>-->
+    </form>
+    </form>
+    </div>
+    </div>
+    </div>
+</body>
+</html>
